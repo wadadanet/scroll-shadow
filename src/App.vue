@@ -4,9 +4,9 @@ import ShadowBox from './components/ShadowBox.vue'
 
 <template>
   <main>
-    <div class="container my-6 relative">
-      <div class="grid grid-cols-5 gap-6">
-        <ShadowBox v-for="index in new Array(60)" :key="index" />
+    <div class="max-w-sm mx-auto">
+      <div class="grid grid-cols-3 gap-3 mx-auto my-3">
+        <ShadowBox v-for="index in new Array(80)" :key="index" />
       </div>
       <div class="fixed left-0 top-0 w-full h-full flex justify-center items-center">
         <div class="text-3xl font-bold">LIGHT</div>

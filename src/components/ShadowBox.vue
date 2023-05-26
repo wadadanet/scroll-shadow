@@ -1,5 +1,5 @@
 <template>
-  <div class="box" ref="boxRef" :style="{ boxShadow: boxShadow }"></div>
+  <div class="box mx-auto" ref="boxRef" :style="{ boxShadow: boxShadow }"></div>
 </template>
 
 <script setup lang="ts">
